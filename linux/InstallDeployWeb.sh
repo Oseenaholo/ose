@@ -20,7 +20,7 @@ sudo systemctl enable httpd
 # Download code
 
 sudo yum install -y git
-git clone https://github.com/Oseenaholo/learning-app-ecommerce.git /var/www/html/
+sudo git clone https://github.com/Oseenaholo/learning-app-ecommerce.git /var/www/html/
 
 # update the index.php file to connect to the right database server. In this case `localhost` since the database is on the same server.
 
